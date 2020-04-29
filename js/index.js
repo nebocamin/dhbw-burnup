@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['start','1H1T','2H1T','1H2T','2H2T']
+      categories: ['Start','1H1T','2H1T','1H2T','2H2T']
     },
     yAxis: {
       min: 0,
@@ -43,7 +43,7 @@ $(function () {
         },
         data: [1]
       }, {
-        name: 'Normal',
+        name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
