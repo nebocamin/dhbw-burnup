@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Sprint 1', 'Sprint 2', 'Sprint 3','Sprint 4','Sprint 5',]
+      categories: ['start','1H1T','2H1T','1H2T','2H2T']
     },
     yAxis: {
       min: 0,
@@ -34,21 +34,21 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [1, 50, 100, 150, 200, 250, 300]
+        data: [0, 30, 60, 90, 120]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
         KWker: {
           radius: 10
         },
-        data: [1,55]
+        data: [1]
       }, {
         name: 'Normal',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
         },
-        data: [278,278,278,278,278,278,278,278,278]
+        data: [113,113,113,113,113]
       }
     ]
   });
