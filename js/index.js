@@ -34,21 +34,21 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,28,48, 64,80,96]
+        data: [0,16,28,48, 64,80,96]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
         KWker: {
           radius: 10
         },
-        data: [0,28,48]
+        data: [0,16,28,48]
       }, {
         name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
         },
-        data: [113,113,113,113,113]
+        data: [113,113,113,113,113,113,113]
       }
     ]
   });
