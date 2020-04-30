@@ -34,7 +34,7 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,16,28,48, 64,80,96]
+        data: [0,16,28,48,73,98]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
@@ -48,7 +48,7 @@ $(function () {
         KWker: {
           radius: 2
         },
-        data: [113,113,113,113,113,113,113]
+        data: [113,113,113,113,113,113]
       }
     ]
   });
