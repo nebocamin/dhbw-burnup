@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Start','T1 Pause1','T1 Pause2','T1 Pause3','T2 Pause1','T2 Pause2','T2 Pause3']
+      categories: ['Start','T1 Pause1','T1 Pause2','T1 Pause3','T2 Pause1','Ende']
     },
     yAxis: {
       min: 0,
