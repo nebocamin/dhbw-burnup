@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Start','T1 Pause1','T1 Pause2','T1 Pause3','T2 Pause1','Ende']
+      categories: ['Start','T1 Mittag','T1 Ende','T2 Mittag','T2 Ende']
     },
     yAxis: {
       min: 0,
@@ -34,21 +34,21 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,16,28,48,73,98]
+        data: [0,22,65,116,174]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
         KWker: {
           radius: 10
         },
-        data: [0,16,28,48,73,99]
+        data: [0,0,0,0,0]
       }, {
         name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
         },
-        data: [113,113,113,113,113,113]
+        data: [174,174,174,174,174,174]
       }
     ]
   });
