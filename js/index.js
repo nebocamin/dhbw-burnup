@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Sprint 1','Sprint 2','Sprint 3','Sprint 4','Sprint 4']
+      categories: ['Sprint 1','Sprint 2','Sprint 3','Sprint 4','Sprint 5']
     },
     yAxis: {
       min: 0,
