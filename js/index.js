@@ -41,7 +41,7 @@ $(function () {
         KWker: {
           radius: 10
         },
-        data: [1,55]
+        data: [1, 60, 189, 340]
       }, {
         name: 'Normal',
         color: 'rgba(225,200,0,0.75)',
