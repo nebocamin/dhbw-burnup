@@ -41,7 +41,7 @@ $(function () {
         KWker: {
           radius: 10
         },
-        data: [0,60,189,340]
+        data: [0,60,189,340,486]
       }, {
         name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
