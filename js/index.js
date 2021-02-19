@@ -43,12 +43,12 @@ $(function () {
         },
         data: [0,60,189,340,486]
       }, {
-        name: 'Maximal',
+        name: 'Startgeschwindigkeit',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
         },
-        data: []
+        data: [0,60,120,180,240,300,360,420]
       }
     ]
   });
