@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Start','T1 Mittag','T1 Ende','T2 Mittag','T2 Ende']
+      categories: ['Sprint 1','Sprint 2','Sprint 3','Sprint 4','Sprint 4']
     },
     yAxis: {
       min: 0,
@@ -48,7 +48,7 @@ $(function () {
         KWker: {
           radius: 2
         },
-        data: [174,175,175,173,147]
+        data: []
       }
     ]
   });
