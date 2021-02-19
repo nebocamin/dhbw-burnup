@@ -1,7 +1,7 @@
 $(function () {
   $('#container').highcharts({
     title: {
-      text: 'Scrum Seminar Agenda Burn Up Chart',
+      text: 'CSBO Sales Burn Up Chart',
     },
     plotOptions: {
       line: {
@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Sprint 1','Sprint 2','Sprint 3','Sprint 4','Sprint 5']
+      categories: ['Sprint 1','Sprint 2','Sprint 3','Sprint 4','Sprint 5','Sprint 6','Sprint 7','Sprint 8']
     },
     yAxis: {
       min: 0,
@@ -34,7 +34,7 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,37,74,93,124]
+        data: [0,60,189,340,486,628,770,912]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
