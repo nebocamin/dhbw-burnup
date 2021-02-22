@@ -1,7 +1,7 @@
 $(function () {
   $('#container').highcharts({
     title: {
-      text: 'CSBO Sales Burn Up Chart',
+      text: 'DHBW Burn Up Chart',
     },
     plotOptions: {
       line: {
