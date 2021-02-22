@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Start','Sprint 1','Sprint 2','Sprint 3','Sprint 4','Sprint 5','Sprint 6','Sprint 7','Sprint 8']
+      categories: ['Start','1.Morgen','','1. Nachmittag','2.Morgen','2.Nachmittag']
     },
     yAxis: {
       min: 0,
@@ -34,21 +34,21 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,60,189,340,486,628,770,912]
+        data: [0,]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
         KWker: {
           radius: 10
         },
-        data: [0,60,189,340,486]
+        data: [0,0]
       }, {
-        name: 'Startgeschwindigkeit',
+        name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
         },
-        data: [0,60,120,180,240,300,360,420]
+        data: [135,135,135,135,135]
       }
     ]
   });
