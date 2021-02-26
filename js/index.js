@@ -12,7 +12,7 @@ $(function () {
       }
     },
     xAxis: {
-      categories: ['Start','1.Morgen','','1. Nachmittag','2.Morgen','2.Nachmittag']
+      categories: ['Start','1.Morgen','1. Nachmittag','2.Morgen','2.Nachmittag']
     },
     yAxis: {
       min: 0,
