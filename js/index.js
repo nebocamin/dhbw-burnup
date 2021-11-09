@@ -41,14 +41,14 @@ $(function () {
         KWker: {
           radius: 10
         },
-        data: [0,40,70,108]
+        data: [0]
       }, {
         name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
         KWker: {
           radius: 2
         },
-        data: [135,133,133,130,130]
+        data: [135,135,135,135,135]
       }
     ]
   });
