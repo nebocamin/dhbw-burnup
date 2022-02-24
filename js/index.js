@@ -34,14 +34,14 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,37,62,95,119,148]
+        data: [0,37,62,95,119]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
         KWker: {
           radius: 10
         },
-        data: [0,37,74,111]
+        data: [0,37,74,111,148]
       }, {
         name: 'Maximal',
         color: 'rgba(225,200,0,0.75)',
