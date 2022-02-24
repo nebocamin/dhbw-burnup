@@ -34,7 +34,7 @@ $(function () {
         name: 'Ideal',
         color: 'rgba(0,255,0,0.25)',
         lineWidth: 1,
-        data: [0,37,62,95,119]
+        data: [0,37,62,95,119,148]
       }, {
         name: 'Actual',
         color: 'rgba(0,120,200,0.75)',
