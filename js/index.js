@@ -32,7 +32,7 @@ $(function () {
     series: [
       {
         name: 'Ideal',
-        color: 'rgba(0,255,0,0.25)',
+        color: 'rgba(0,255,0,0.50)',
         lineWidth: 1,
         data: [0,37,62,95,119]
       }, {
